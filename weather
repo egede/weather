@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# Script accepts a single argument which can be a place name or an airport code. If no
+# argument is given it will guess the location.
+#
+curl wttr.in/"$@"
