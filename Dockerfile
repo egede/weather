@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y \
 COPY weather /bin/weather
 RUN chmod +x /bin/weather
 
-CMD ["/bin/weather"]
+CMD ["weather", ""]
